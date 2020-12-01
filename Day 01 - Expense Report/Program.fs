@@ -16,7 +16,7 @@ let rec permutations input =
     | (x :: xs) -> List.map (fun y -> (x, y)) xs @ permutations xs
     | [] -> []
 
-// Find first matching pair using combinations
+// Find first matching pair using permutations
 let findTriple year input =
     permutations input
     |> List.filter (fun (x, y) -> x + y <= year)
