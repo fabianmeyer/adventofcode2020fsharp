@@ -17,14 +17,13 @@ let main argv =
     let takenSeats = input |> Seq.sort |> Seq.toList
 
     // Part 1
-    let highestSeat = List.max takenSeats
-    printfn "%d" (highestSeat)
+    printfn "Highest Seat: %d" (List.max takenSeats)
 
     // Part 2
     List.pairwise takenSeats
     |> List.filter (fun (l, r) -> r - l = 2)
     |> List.map (fun (l, _) -> l + 1)
     |> List.head
-    |> printfn "%d"
+    |> printfn "My Seat: %d"
 
     0
