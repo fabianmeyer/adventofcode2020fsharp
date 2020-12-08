@@ -17,6 +17,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Day 05 - Binary Boarding", 
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Day 07 - Handy Haversacks", "Day 07 - Handy Haversacks\Day 07 - Handy Haversacks.fsproj", "{108B594A-11E0-47F2-BABD-E59C1FCD8976}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Day 08 - Handheld Halting", "Day 08 - Handheld Halting\Day 08 - Handheld Halting.fsproj", "{A5BA3309-7C2E-4CDE-AA00-8D135F49D203}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -114,5 +116,17 @@ Global
 		{108B594A-11E0-47F2-BABD-E59C1FCD8976}.Release|x64.Build.0 = Release|Any CPU
 		{108B594A-11E0-47F2-BABD-E59C1FCD8976}.Release|x86.ActiveCfg = Release|Any CPU
 		{108B594A-11E0-47F2-BABD-E59C1FCD8976}.Release|x86.Build.0 = Release|Any CPU
+		{A5BA3309-7C2E-4CDE-AA00-8D135F49D203}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5BA3309-7C2E-4CDE-AA00-8D135F49D203}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5BA3309-7C2E-4CDE-AA00-8D135F49D203}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A5BA3309-7C2E-4CDE-AA00-8D135F49D203}.Debug|x64.Build.0 = Debug|Any CPU
+		{A5BA3309-7C2E-4CDE-AA00-8D135F49D203}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A5BA3309-7C2E-4CDE-AA00-8D135F49D203}.Debug|x86.Build.0 = Debug|Any CPU
+		{A5BA3309-7C2E-4CDE-AA00-8D135F49D203}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5BA3309-7C2E-4CDE-AA00-8D135F49D203}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5BA3309-7C2E-4CDE-AA00-8D135F49D203}.Release|x64.ActiveCfg = Release|Any CPU
+		{A5BA3309-7C2E-4CDE-AA00-8D135F49D203}.Release|x64.Build.0 = Release|Any CPU
+		{A5BA3309-7C2E-4CDE-AA00-8D135F49D203}.Release|x86.ActiveCfg = Release|Any CPU
+		{A5BA3309-7C2E-4CDE-AA00-8D135F49D203}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
