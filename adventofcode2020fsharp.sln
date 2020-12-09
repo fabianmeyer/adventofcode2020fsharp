@@ -19,6 +19,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Day 07 - Handy Haversacks",
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Day 08 - Handheld Halting", "Day 08 - Handheld Halting\Day 08 - Handheld Halting.fsproj", "{A5BA3309-7C2E-4CDE-AA00-8D135F49D203}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Day 09 - Encoding Error", "Day 09 - Encoding Error\Day 09 - Encoding Error.fsproj", "{E902E19D-01F8-4D82-8E88-52B7FC5D79EC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -128,5 +130,17 @@ Global
 		{A5BA3309-7C2E-4CDE-AA00-8D135F49D203}.Release|x64.Build.0 = Release|Any CPU
 		{A5BA3309-7C2E-4CDE-AA00-8D135F49D203}.Release|x86.ActiveCfg = Release|Any CPU
 		{A5BA3309-7C2E-4CDE-AA00-8D135F49D203}.Release|x86.Build.0 = Release|Any CPU
+		{E902E19D-01F8-4D82-8E88-52B7FC5D79EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E902E19D-01F8-4D82-8E88-52B7FC5D79EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E902E19D-01F8-4D82-8E88-52B7FC5D79EC}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{E902E19D-01F8-4D82-8E88-52B7FC5D79EC}.Debug|x64.Build.0 = Debug|Any CPU
+		{E902E19D-01F8-4D82-8E88-52B7FC5D79EC}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E902E19D-01F8-4D82-8E88-52B7FC5D79EC}.Debug|x86.Build.0 = Debug|Any CPU
+		{E902E19D-01F8-4D82-8E88-52B7FC5D79EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E902E19D-01F8-4D82-8E88-52B7FC5D79EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E902E19D-01F8-4D82-8E88-52B7FC5D79EC}.Release|x64.ActiveCfg = Release|Any CPU
+		{E902E19D-01F8-4D82-8E88-52B7FC5D79EC}.Release|x64.Build.0 = Release|Any CPU
+		{E902E19D-01F8-4D82-8E88-52B7FC5D79EC}.Release|x86.ActiveCfg = Release|Any CPU
+		{E902E19D-01F8-4D82-8E88-52B7FC5D79EC}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
