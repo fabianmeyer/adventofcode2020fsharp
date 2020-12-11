@@ -23,6 +23,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Day 09 - Encoding Error", "
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Day 10 - Adapter Array", "Day 10 - Adapter Array\Day 10 - Adapter Array.fsproj", "{AA78BE2B-C2BB-465A-B0D9-55DE4332F490}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Day 11 - Seating System", "Day 11 - Seating System\Day 11 - Seating System.fsproj", "{3A1E3B2D-CF72-430C-8776-EB735CBF3052}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -156,5 +158,17 @@ Global
 		{AA78BE2B-C2BB-465A-B0D9-55DE4332F490}.Release|x64.Build.0 = Release|Any CPU
 		{AA78BE2B-C2BB-465A-B0D9-55DE4332F490}.Release|x86.ActiveCfg = Release|Any CPU
 		{AA78BE2B-C2BB-465A-B0D9-55DE4332F490}.Release|x86.Build.0 = Release|Any CPU
+		{3A1E3B2D-CF72-430C-8776-EB735CBF3052}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A1E3B2D-CF72-430C-8776-EB735CBF3052}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A1E3B2D-CF72-430C-8776-EB735CBF3052}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{3A1E3B2D-CF72-430C-8776-EB735CBF3052}.Debug|x64.Build.0 = Debug|Any CPU
+		{3A1E3B2D-CF72-430C-8776-EB735CBF3052}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3A1E3B2D-CF72-430C-8776-EB735CBF3052}.Debug|x86.Build.0 = Debug|Any CPU
+		{3A1E3B2D-CF72-430C-8776-EB735CBF3052}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A1E3B2D-CF72-430C-8776-EB735CBF3052}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A1E3B2D-CF72-430C-8776-EB735CBF3052}.Release|x64.ActiveCfg = Release|Any CPU
+		{3A1E3B2D-CF72-430C-8776-EB735CBF3052}.Release|x64.Build.0 = Release|Any CPU
+		{3A1E3B2D-CF72-430C-8776-EB735CBF3052}.Release|x86.ActiveCfg = Release|Any CPU
+		{3A1E3B2D-CF72-430C-8776-EB735CBF3052}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
