@@ -14,13 +14,42 @@ let seatingAreaWithEmptyRowBorder seatingArea =
     @ [ emptyRow ]
     |> List.map (fun row -> '.' :: row @ [ '.' ])
 
+
+type TileId = { Row: int; Col: int }
+
+type Tile =
+    { State: char
+      Nw: TileId
+      N: TileId
+      Ne: TileId
+      E: TileId
+      Se: TileId
+      S: TileId
+      Sw: TileId
+      W: TileId }
+
+let seats seatingArea =
+    seatingArea
+    |> List.mapi (fun rowIdx ->
+        List.mapi (fun colIdx state ->
+            { State = state
+              Nw = { Row = rowIdx - 1; Col = colIdx - 1 }
+              N = { Row = rowIdx - 1; Col = colIdx }
+              Ne = { Row = rowIdx - 1; Col = colIdx + 1 }
+              E = { Row = rowIdx; Col = colIdx + 1 }
+              Se = { Row = rowIdx + 1; Col = colIdx + 1 }
+              S = { Row = rowIdx + 1; Col = colIdx }
+              Sw = { Row = rowIdx + 1; Col = colIdx - 1 }
+              W = { Row = rowIdx; Col = colIdx - 1 } }))
+
+
 let adjancents seatingArea =
     seatingAreaWithEmptyRowBorder seatingArea
     |> List.windowed 3
-    |> List.map (fun [ row1; row2; row3 ] ->
+    |> List.mapi (fun row [ row1; row2; row3 ] ->
         List.zip3 row1 row2 row3
         |> List.windowed 3
-        |> List.map (fun [ (s11, s12, s13); (s21, s22, s23); (s31, s32, s33) ] ->
+        |> List.mapi (fun col [ (s11, s12, s13); (s21, s22, s23); (s31, s32, s33) ] ->
             (s22,
              [ s11
                s12
@@ -32,7 +61,7 @@ let adjancents seatingArea =
                s33 ])))
 
 let applySeatingRules seatingArea =
-    adjancents seatingArea
+    seats seatingArea
     |> List.map
         (List.map (fun (seat, adjs) ->
             let occupiedAdjancents =
@@ -66,6 +95,7 @@ let main argv =
         |> Seq.takeWhile (fun (a, b) -> (a <> b))
         |> fun res -> (Seq.length res, Seq.last res |> snd)
 
+    
 
     printfn "Occupied seats at fixpoint (%d iterations): %d" iterations (countOccupiedSeats result)
 
